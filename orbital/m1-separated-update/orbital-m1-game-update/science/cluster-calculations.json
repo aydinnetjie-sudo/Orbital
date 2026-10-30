@@ -1,0 +1,430 @@
+{
+  "scope": "Conserved scalar transport, not interacting-jet CFD; 95% scalar-flux footprint is not a sharp flame boundary",
+  "nozzles": 33,
+  "exitRadiusMetres": 0.10096504045430475,
+  "minimumCentreSpacingMetres": 0.24248711305964282,
+  "minimumEdgeGapMetres": 0.04055703215103332,
+  "kernelMaxRelativeMassError": 3.1244075326952725e-08,
+  "cases": [
+    {
+      "throttle": 0.5,
+      "pressure": 101325,
+      "convectiveMach": 2.876160285244738,
+      "sigmaSlope": 0.029477091426587422,
+      "mdotEach": 10.478972259686554,
+      "totalMdot": 345.80608456965626,
+      "sourceRegime": "Overexpanded",
+      "first95PercentFootprintContactMetres": 1.1390769297751586,
+      "connectedFootprintGraphMetres": 2.611637361418821,
+      "sensitivity": [
+        {
+          "damping": 0.1,
+          "first95PercentFootprintContactMetres": 2.3151722828486276,
+          "connectedFootprintGraphMetres": 5.223851493691283
+        },
+        {
+          "damping": 0.2,
+          "first95PercentFootprintContactMetres": 1.1390769297751586,
+          "connectedFootprintGraphMetres": 2.611637361418821
+        },
+        {
+          "damping": 0.25,
+          "first95PercentFootprintContactMetres": 0.8982868307339699,
+          "connectedFootprintGraphMetres": 2.088697591550294
+        }
+      ]
+    },
+    {
+      "throttle": 0.5,
+      "pressure": 90073.6159,
+      "convectiveMach": 2.876160285244738,
+      "sigmaSlope": 0.02816856322719358,
+      "mdotEach": 10.478972259686554,
+      "totalMdot": 345.80608456965626,
+      "sourceRegime": "Overexpanded",
+      "first95PercentFootprintContactMetres": 1.1431932508872336,
+      "connectedFootprintGraphMetres": 2.703953725699226,
+      "sensitivity": [
+        {
+          "damping": 0.1,
+          "first95PercentFootprintContactMetres": 2.3206879310857893,
+          "connectedFootprintGraphMetres": 5.408336981862551
+        },
+        {
+          "damping": 0.2,
+          "first95PercentFootprintContactMetres": 1.1431932508872336,
+          "connectedFootprintGraphMetres": 2.703953725699226
+        },
+        {
+          "damping": 0.25,
+          "first95PercentFootprintContactMetres": 0.9025780576395781,
+          "connectedFootprintGraphMetres": 2.162678146172534
+        }
+      ]
+    },
+    {
+      "throttle": 0.5,
+      "pressure": 30000,
+      "convectiveMach": 2.876160285244738,
+      "sigmaSlope": 0.019040145711901487,
+      "mdotEach": 10.478972259686554,
+      "totalMdot": 345.80608456965626,
+      "sourceRegime": "Underexpanded",
+      "first95PercentFootprintContactMetres": 0.24892317476453596,
+      "connectedFootprintGraphMetres": 1.1202918448300516,
+      "sensitivity": [
+        {
+          "damping": 0.1,
+          "first95PercentFootprintContactMetres": 0.2593294014479396,
+          "connectedFootprintGraphMetres": 1.2278650800259392
+        },
+        {
+          "damping": 0.2,
+          "first95PercentFootprintContactMetres": 0.24892317476453596,
+          "connectedFootprintGraphMetres": 1.1202918448300516
+        },
+        {
+          "damping": 0.25,
+          "first95PercentFootprintContactMetres": 0.24178800045280716,
+          "connectedFootprintGraphMetres": 1.0643474588885076
+        }
+      ]
+    },
+    {
+      "throttle": 0.5,
+      "pressure": 10000,
+      "convectiveMach": 2.876160285244738,
+      "sigmaSlope": 0.01377494523461497,
+      "mdotEach": 10.478972259686554,
+      "totalMdot": 345.80608456965626,
+      "sourceRegime": "Underexpanded",
+      "first95PercentFootprintContactMetres": 0.08517701052613329,
+      "connectedFootprintGraphMetres": 0.4138475826789321,
+      "sensitivity": [
+        {
+          "damping": 0.1,
+          "first95PercentFootprintContactMetres": 0.08519154510304186,
+          "connectedFootprintGraphMetres": 0.41615241427868416
+        },
+        {
+          "damping": 0.2,
+          "first95PercentFootprintContactMetres": 0.08517701052613329,
+          "connectedFootprintGraphMetres": 0.4138475826789321
+        },
+        {
+          "damping": 0.25,
+          "first95PercentFootprintContactMetres": 0.08515066438346246,
+          "connectedFootprintGraphMetres": 0.4116749159366703
+        }
+      ]
+    },
+    {
+      "throttle": 0.5,
+      "pressure": 0,
+      "convectiveMach": 2.876160285244738,
+      "sigmaSlope": 0,
+      "mdotEach": 10.478972259686554,
+      "totalMdot": 345.80608456965626,
+      "sourceRegime": "Underexpanded",
+      "first95PercentFootprintContactMetres": 0.00047717253669256484,
+      "connectedFootprintGraphMetres": 0.002304914994523114,
+      "sensitivity": [
+        {
+          "damping": 0.1,
+          "first95PercentFootprintContactMetres": 0.00047717253669256484,
+          "connectedFootprintGraphMetres": 0.002304914994523114
+        },
+        {
+          "damping": 0.2,
+          "first95PercentFootprintContactMetres": 0.00047717253669256484,
+          "connectedFootprintGraphMetres": 0.002304914994523114
+        },
+        {
+          "damping": 0.25,
+          "first95PercentFootprintContactMetres": 0.00047717253669256484,
+          "connectedFootprintGraphMetres": 0.002304914994523114
+        }
+      ]
+    },
+    {
+      "throttle": 0.75,
+      "pressure": 101325,
+      "convectiveMach": 2.875331399965603,
+      "sigmaSlope": 0.02537629004066267,
+      "mdotEach": 15.640160584286741,
+      "totalMdot": 516.1252992814625,
+      "sourceRegime": "Overexpanded",
+      "first95PercentFootprintContactMetres": 1.1054196666792657,
+      "connectedFootprintGraphMetres": 2.9058340272692518,
+      "sensitivity": [
+        {
+          "damping": 0.1,
+          "first95PercentFootprintContactMetres": 2.2356297269269936,
+          "connectedFootprintGraphMetres": 5.811835433428763
+        },
+        {
+          "damping": 0.2,
+          "first95PercentFootprintContactMetres": 1.1054196666792657,
+          "connectedFootprintGraphMetres": 2.9058340272692518
+        },
+        {
+          "damping": 0.25,
+          "first95PercentFootprintContactMetres": 0.8761773037197876,
+          "connectedFootprintGraphMetres": 2.3244505456899063
+        }
+      ]
+    },
+    {
+      "throttle": 0.75,
+      "pressure": 90073.6159,
+      "convectiveMach": 2.875331399965603,
+      "sigmaSlope": 0.024302141451558533,
+      "mdotEach": 15.640160584286741,
+      "totalMdot": 516.1252992814625,
+      "sourceRegime": "Overexpanded",
+      "first95PercentFootprintContactMetres": 1.0740920713830215,
+      "connectedFootprintGraphMetres": 2.987905727713981,
+      "sensitivity": [
+        {
+          "damping": 0.1,
+          "first95PercentFootprintContactMetres": 2.16636925256789,
+          "connectedFootprintGraphMetres": 5.975903281384036
+        },
+        {
+          "damping": 0.2,
+          "first95PercentFootprintContactMetres": 1.0740920713830215,
+          "connectedFootprintGraphMetres": 2.987905727713981
+        },
+        {
+          "damping": 0.25,
+          "first95PercentFootprintContactMetres": 0.8535630862217758,
+          "connectedFootprintGraphMetres": 2.3901993081148074
+        }
+      ]
+    },
+    {
+      "throttle": 0.75,
+      "pressure": 30000,
+      "convectiveMach": 2.875331399965603,
+      "sigmaSlope": 0.01680877845078656,
+      "mdotEach": 15.640160584286741,
+      "totalMdot": 516.1252992814625,
+      "sourceRegime": "Underexpanded",
+      "first95PercentFootprintContactMetres": 0.14416202584893026,
+      "connectedFootprintGraphMetres": 0.6832312801642033,
+      "sensitivity": [
+        {
+          "damping": 0.1,
+          "first95PercentFootprintContactMetres": 0.14496237504380094,
+          "connectedFootprintGraphMetres": 0.7038697629579579
+        },
+        {
+          "damping": 0.2,
+          "first95PercentFootprintContactMetres": 0.14416202584893026,
+          "connectedFootprintGraphMetres": 0.6832312801642033
+        },
+        {
+          "damping": 0.25,
+          "first95PercentFootprintContactMetres": 0.14317056980939552,
+          "connectedFootprintGraphMetres": 0.6697651299936712
+        }
+      ]
+    },
+    {
+      "throttle": 0.75,
+      "pressure": 10000,
+      "convectiveMach": 2.875331399965603,
+      "sigmaSlope": 0.012486664745749353,
+      "mdotEach": 15.640160584286741,
+      "totalMdot": 516.1252992814625,
+      "sourceRegime": "Underexpanded",
+      "first95PercentFootprintContactMetres": 0.06760300846469182,
+      "connectedFootprintGraphMetres": 0.32973714116442787,
+      "sensitivity": [
+        {
+          "damping": 0.1,
+          "first95PercentFootprintContactMetres": 0.06776248660090485,
+          "connectedFootprintGraphMetres": 0.33034493687197336
+        },
+        {
+          "damping": 0.2,
+          "first95PercentFootprintContactMetres": 0.06760300846469182,
+          "connectedFootprintGraphMetres": 0.32973714116442787
+        },
+        {
+          "damping": 0.25,
+          "first95PercentFootprintContactMetres": 0.06759738457791324,
+          "connectedFootprintGraphMetres": 0.32896945357642715
+        }
+      ]
+    },
+    {
+      "throttle": 0.75,
+      "pressure": 0,
+      "convectiveMach": 2.875331399965603,
+      "sigmaSlope": 0,
+      "mdotEach": 15.640160584286741,
+      "totalMdot": 516.1252992814625,
+      "sourceRegime": "Underexpanded",
+      "first95PercentFootprintContactMetres": 0.00047717253669256484,
+      "connectedFootprintGraphMetres": 0.002304914994523114,
+      "sensitivity": [
+        {
+          "damping": 0.1,
+          "first95PercentFootprintContactMetres": 0.00047717253669256484,
+          "connectedFootprintGraphMetres": 0.002304914994523114
+        },
+        {
+          "damping": 0.2,
+          "first95PercentFootprintContactMetres": 0.00047717253669256484,
+          "connectedFootprintGraphMetres": 0.002304914994523114
+        },
+        {
+          "damping": 0.25,
+          "first95PercentFootprintContactMetres": 0.00047717253669256484,
+          "connectedFootprintGraphMetres": 0.002304914994523114
+        }
+      ]
+    },
+    {
+      "throttle": 1,
+      "pressure": 101325,
+      "convectiveMach": 2.874725151370761,
+      "sigmaSlope": 0.02291848201313617,
+      "mdotEach": 20.782102416090545,
+      "totalMdot": 685.809379730988,
+      "sourceRegime": "Near pressure matched",
+      "first95PercentFootprintContactMetres": 0.9931305763831906,
+      "connectedFootprintGraphMetres": 3.0842382604919005,
+      "sensitivity": [
+        {
+          "damping": 0.1,
+          "first95PercentFootprintContactMetres": 1.985796594507361,
+          "connectedFootprintGraphMetres": 6.167714915878869
+        },
+        {
+          "damping": 0.2,
+          "first95PercentFootprintContactMetres": 0.9931305763831906,
+          "connectedFootprintGraphMetres": 3.0842382604919005
+        },
+        {
+          "damping": 0.25,
+          "first95PercentFootprintContactMetres": 0.794541631854956,
+          "connectedFootprintGraphMetres": 2.4674515316426997
+        }
+      ]
+    },
+    {
+      "throttle": 1,
+      "pressure": 90073.6159,
+      "convectiveMach": 2.874725151370761,
+      "sigmaSlope": 0.021984808427195014,
+      "mdotEach": 20.782102416090545,
+      "totalMdot": 685.809379730988,
+      "sourceRegime": "Underexpanded",
+      "first95PercentFootprintContactMetres": 0.6303446499441778,
+      "connectedFootprintGraphMetres": 2.347495220709455,
+      "sensitivity": [
+        {
+          "damping": 0.1,
+          "first95PercentFootprintContactMetres": 0.8640115109641675,
+          "connectedFootprintGraphMetres": 3.515966303287583
+        },
+        {
+          "damping": 0.2,
+          "first95PercentFootprintContactMetres": 0.6303446499441778,
+          "connectedFootprintGraphMetres": 2.347495220709455
+        },
+        {
+          "damping": 0.25,
+          "first95PercentFootprintContactMetres": 0.5512041699235272,
+          "connectedFootprintGraphMetres": 1.9999768881770599
+        }
+      ]
+    },
+    {
+      "throttle": 1,
+      "pressure": 30000,
+      "convectiveMach": 2.874725151370761,
+      "sigmaSlope": 0.015471412445802309,
+      "mdotEach": 20.782102416090545,
+      "totalMdot": 685.809379730988,
+      "sourceRegime": "Underexpanded",
+      "first95PercentFootprintContactMetres": 0.1102441719534133,
+      "connectedFootprintGraphMetres": 0.5306375271820478,
+      "sensitivity": [
+        {
+          "damping": 0.1,
+          "first95PercentFootprintContactMetres": 0.11038769106939868,
+          "connectedFootprintGraphMetres": 0.5383826410618029
+        },
+        {
+          "damping": 0.2,
+          "first95PercentFootprintContactMetres": 0.1102441719534133,
+          "connectedFootprintGraphMetres": 0.5306375271820478
+        },
+        {
+          "damping": 0.25,
+          "first95PercentFootprintContactMetres": 0.11000016220676599,
+          "connectedFootprintGraphMetres": 0.5248092755427645
+        }
+      ]
+    },
+    {
+      "throttle": 1,
+      "pressure": 10000,
+      "convectiveMach": 2.874725151370761,
+      "sigmaSlope": 0.011714536122766636,
+      "mdotEach": 20.782102416090545,
+      "totalMdot": 685.809379730988,
+      "sourceRegime": "Underexpanded",
+      "first95PercentFootprintContactMetres": 0.05882244705911208,
+      "connectedFootprintGraphMetres": 0.2872295165475542,
+      "sensitivity": [
+        {
+          "damping": 0.1,
+          "first95PercentFootprintContactMetres": 0.059130887937993926,
+          "connectedFootprintGraphMetres": 0.2874496845272886
+        },
+        {
+          "damping": 0.2,
+          "first95PercentFootprintContactMetres": 0.05882244705911208,
+          "connectedFootprintGraphMetres": 0.2872295165475542
+        },
+        {
+          "damping": 0.25,
+          "first95PercentFootprintContactMetres": 0.05882150568346137,
+          "connectedFootprintGraphMetres": 0.28686838030700385
+        }
+      ]
+    },
+    {
+      "throttle": 1,
+      "pressure": 0,
+      "convectiveMach": 2.874725151370761,
+      "sigmaSlope": 0,
+      "mdotEach": 20.782102416090545,
+      "totalMdot": 685.809379730988,
+      "sourceRegime": "Underexpanded",
+      "first95PercentFootprintContactMetres": 0.00047717253669256484,
+      "connectedFootprintGraphMetres": 0.002304914994523114,
+      "sensitivity": [
+        {
+          "damping": 0.1,
+          "first95PercentFootprintContactMetres": 0.00047717253669256484,
+          "connectedFootprintGraphMetres": 0.002304914994523114
+        },
+        {
+          "damping": 0.2,
+          "first95PercentFootprintContactMetres": 0.00047717253669256484,
+          "connectedFootprintGraphMetres": 0.002304914994523114
+        },
+        {
+          "damping": 0.25,
+          "first95PercentFootprintContactMetres": 0.00047717253669256484,
+          "connectedFootprintGraphMetres": 0.002304914994523114
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+8
+(
+    inlet
+    {
+        type            patch;
+        nFaces          0;
+        startFace       6952;
+    }
+    outlet
+    {
+        type            patch;
+        nFaces          52;
+        startFace       6952;
+    }
+    farfield
+    {
+        type            patch;
+        nFaces          68;
+        startFace       7004;
+    }
+    walls
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          0;
+        startFace       7072;
+    }
+    wedge1
+    {
+        type            wedge;
+        inGroups        1(wedge);
+        nFaces          3536;
+        startFace       7072;
+    }
+    wedge2
+    {
+        type            wedge;
+        inGroups        1(wedge);
+        nFaces          3536;
+        startFace       10608;
+    }
+    defaultFaces
+    {
+        type            empty;
+        inGroups        1(empty);
+        nFaces          0;
+        startFace       14144;
+    }
+    procBoundary0to1
+    {
+        type            processor;
+        inGroups        1(processor);
+        nFaces          52;
+        startFace       14144;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        0;
+        neighbProcNo    1;
+    }
+)
+
+// ************************************************************************* //

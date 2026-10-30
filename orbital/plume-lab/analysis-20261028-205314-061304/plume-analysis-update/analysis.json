@@ -1,0 +1,64 @@
+{
+  "sea-level": {
+    "mesh_cells": 7120,
+    "final_simulated_time_s": 0.02,
+    "mass_initial_recorded_kg": 24.86429478025,
+    "mass_last_recorded_kg": 24.36866375688,
+    "last_monitor_time_s": 0.01998158073,
+    "last_net_outward_massflow_kgps": 45.63712666068641,
+    "last_inlet_massflow_kgps": -2.925633798722,
+    "late_mean_normalized_mass_balance_residual": 0.000347537982926965,
+    "snapshot_changes_15_to_20_ms": {
+      "nozzle": {
+        "p_relative_L2": 0.0018359953286317331,
+        "T_relative_L2": 0.0004660524323937378,
+        "U_relative_L2": 0.004045672185765318
+      },
+      "near_plume": {
+        "p_relative_L2": 0.17548238041772363,
+        "T_relative_L2": 0.09786144291188158,
+        "U_relative_L2": 0.17156242874873076
+      },
+      "domain": {
+        "p_relative_L2": 0.18506306023220542,
+        "T_relative_L2": 0.31588001190354376,
+        "U_relative_L2": 0.24543182815814346
+      }
+    },
+    "speed_max_mps": 3056.723079070952,
+    "T_min_K": 280.271,
+    "T_max_K": 3147.25,
+    "ideal_gas_R_max_relative_error": 1.0375782343086115e-05
+  },
+  "thin-air": {
+    "mesh_cells": 7120,
+    "final_simulated_time_s": 0.02,
+    "mass_initial_recorded_kg": 3.169620342783,
+    "mass_last_recorded_kg": 2.639422336989,
+    "last_monitor_time_s": 0.01998162238,
+    "last_net_outward_massflow_kgps": 43.46023836076519,
+    "last_inlet_massflow_kgps": -2.925633798722,
+    "late_mean_normalized_mass_balance_residual": 0.0002595041335943069,
+    "snapshot_changes_15_to_20_ms": {
+      "nozzle": {
+        "p_relative_L2": 0.001314945899999732,
+        "T_relative_L2": 0.00038212000211116623,
+        "U_relative_L2": 0.0029102334651989773
+      },
+      "near_plume": {
+        "p_relative_L2": 0.015612868467409976,
+        "T_relative_L2": 0.013154644466242238,
+        "U_relative_L2": 0.013020115173902768
+      },
+      "domain": {
+        "p_relative_L2": 0.07901588533188719,
+        "T_relative_L2": 0.5477938133474237,
+        "U_relative_L2": 0.42031117659051875
+      }
+    },
+    "speed_max_mps": 3581.184677337985,
+    "T_min_K": 220.842,
+    "T_max_K": 3147.25,
+    "ideal_gas_R_max_relative_error": 1.0622951191807672e-05
+  }
+}

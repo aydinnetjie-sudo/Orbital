@@ -1,0 +1,70 @@
+{
+  "stage": "non-reacting single-gas RANS commissioning",
+  "image": "opencfd/openfoam-default:2312",
+  "solver": "rhoCentralFoam",
+  "cells": 7120,
+  "ambient_pressure_Pa": 101325,
+  "ambient_temperature_K": 288.15,
+  "throat_radius_m": 0.22,
+  "exit_radius_m": 0.58,
+  "chamber_temperature_K": 3500.0,
+  "chamber_pressure_Pa": 2370021.534066159,
+  "throat_temperature_K": 3153.1531531531537,
+  "throat_pressure_Pa": 1328665.8518535865,
+  "throat_speed_mps": 1168.60199838552,
+  "ideal_full_circle_massflow_kgps": 210.91341988717477,
+  "prescribed_wedge_inlet_massflow_kgps": 2.9256364195896873,
+  "refinement": 1,
+  "rocket_plume_validated": false,
+  "vacuum_plume_validated": false,
+  "assumptions": [
+    "Axisymmetric 5-degree wedge, from sonic throat downstream",
+    "Single perfect gas: ambient uses the same gas properties as exhaust",
+    "Constant Cp and gamma; representative Sutherland viscosity",
+    "Adiabatic no-slip walls with wall functions",
+    "5% inlet turbulence intensity and 0.05 m length scale",
+    "No chemical reactions, soot kinetics or spectral radiation",
+    "Not valid as a deep-vacuum CFD/DSMC solution",
+    "Mesh/domain/time convergence and wall y+ have not been established"
+  ],
+  "execution_check": "completed; latest-time fields finite and positive",
+  "exported_field_ranges": {
+    "T": {
+      "min": 280.271,
+      "max": 3147.25
+    },
+    "alphat": {
+      "min": 0.000729155,
+      "max": 8.3422
+    },
+    "k": {
+      "min": 0.00909046,
+      "max": 413449.0
+    },
+    "nut": {
+      "min": 0.000998998,
+      "max": 38.4318
+    },
+    "omega": {
+      "min": 8.10098,
+      "max": 847250.0
+    },
+    "p": {
+      "min": 4361.0,
+      "max": 1314950.0
+    },
+    "rho": {
+      "min": 0.0107534,
+      "max": 1.52752
+    },
+    "U": {
+      "min": -1028.69,
+      "max": 3055.83
+    },
+    "speed_mps": {
+      "min": 1.8399673590036498e-13,
+      "max": 3056.723079070952
+    }
+  },
+  "validation_note": "Integrity checks only; no chemistry, radiation, vacuum or mesh-convergence validation."
+}

@@ -1,0 +1,94 @@
+{
+  "states": [
+    {
+      "engines": 33,
+      "equivalentExitRadius": 0.5800000000000002,
+      "pressurePa": 90073.61587560379,
+      "command": 0.3,
+      "quality": "low",
+      "airMode": "reduced",
+      "airActive": false,
+      "airStatus": "Separation risk: air model bypassed",
+      "flowRegime": "Separation risk: attached-flow prediction invalid",
+      "source": "Candidate ideal nozzle table; cluster mixing and light illustrative",
+      "cfdGeometryMatches": false,
+      "stageEnabled": true,
+      "travel": 54.460873054684164
+    },
+    {
+      "engines": 33,
+      "equivalentExitRadius": 0.5800000000000002,
+      "pressurePa": 90073.61587560379,
+      "command": 1,
+      "quality": "low",
+      "airMode": "reduced",
+      "airActive": true,
+      "airStatus": "Air: equivalent-jet approximation",
+      "flowRegime": "Underexpanded",
+      "source": "Candidate ideal nozzle table; cluster mixing and light illustrative",
+      "cfdGeometryMatches": false,
+      "stageEnabled": true,
+      "travel": 54.460873054684164
+    },
+    {
+      "engines": 33,
+      "equivalentExitRadius": 0.5800000000000002,
+      "pressurePa": 90073.61587560379,
+      "command": 0,
+      "quality": "low",
+      "airMode": "reduced",
+      "airActive": false,
+      "airStatus": "Off / transient not modelled",
+      "flowRegime": "Off / transient not modelled",
+      "source": "Candidate ideal nozzle table; cluster mixing and light illustrative",
+      "cfdGeometryMatches": false,
+      "stageEnabled": false,
+      "travel": 54.460873054684164
+    }
+  ],
+  "errors": [],
+  "advection": {
+    "delta": 53.788516599692684,
+    "expected": 53.78851659969273
+  },
+  "vacuum": {
+    "engines": 33,
+    "equivalentExitRadius": 0.5800000000000002,
+    "pressurePa": 0,
+    "command": 0.75,
+    "quality": "low",
+    "airMode": "reduced",
+    "airActive": false,
+    "airStatus": "Vacuum: no surrounding air",
+    "flowRegime": "Underexpanded",
+    "source": "Candidate ideal nozzle table; cluster mixing and light illustrative",
+    "cfdGeometryMatches": false
+  },
+  "clusterCFD": {
+    "engines": 33,
+    "equivalentExitRadius": 0.5800000000000002,
+    "pressurePa": 90073.61587560379,
+    "command": 0.75,
+    "quality": "low",
+    "airMode": "cfd",
+    "airActive": false,
+    "airStatus": "CFD bypassed: requires one 0.65 m nozzle at 75%, sea level",
+    "flowRegime": "Overexpanded",
+    "source": "Candidate ideal nozzle table; cluster mixing and light illustrative",
+    "cfdGeometryMatches": false
+  },
+  "foregroundCentre": {
+    "x": 499.99999997484605,
+    "y": 451.0103852569439
+  },
+  "farPlane": 10000000000000,
+  "resize": {
+    "width": 820,
+    "height": 600,
+    "ready": true
+  },
+  "crash": {
+    "enabled": false
+  },
+  "passed": true
+}

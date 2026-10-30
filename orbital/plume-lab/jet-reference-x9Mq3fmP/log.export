@@ -1,0 +1,42 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _c39a0f64-20231220 OPENFOAM=2312 version=2312
+Arch   : "LSB;label=32;scalar=64"
+Exec   : foamToVTK -latestTime -ascii
+Date   : Oct 28 2026
+Time   : 13:05:02
+Host   : e4c1647e2370
+PID    : 223
+I/O    : uncollated
+Case   : /case
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Initial memory 117616 kB
+Create mesh for time = 2e-05
+
+VTK mesh topology: 0 s, 118364 kB
+Time: 2e-05
+    volScalar    : T p rho
+    volVector    : U
+    Internal  : "VTK/case_7611/internal.vtu"
+    Boundary  : "VTK/case_7611/boundary/inlet.vtp"
+    Boundary  : "VTK/case_7611/boundary/outlet.vtp"
+    Boundary  : "VTK/case_7611/boundary/freestreamInlet.vtp"
+    Boundary  : "VTK/case_7611/boundary/freestream.vtp"
+    Boundary  : "VTK/case_7611/boundary/wedge1.vtp"
+    Boundary  : "VTK/case_7611/boundary/wedge2.vtp"
+Wrote in 0.06 s, 120188 kB
+
+End: 0.06 s, 120188 kB (peak)
+

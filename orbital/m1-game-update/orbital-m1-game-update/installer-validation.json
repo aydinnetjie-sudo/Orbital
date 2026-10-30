@@ -1,0 +1,10 @@
+{
+  "preflightNoMutation": true,
+  "installation": true,
+  "idempotent": true,
+  "changedSourceRefusal": true,
+  "restoreProtectsLaterEdits": true,
+  "restoreOriginal": true,
+  "partialFailureRollback": true,
+  "passed": true
+}

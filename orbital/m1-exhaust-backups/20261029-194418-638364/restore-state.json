@@ -1,0 +1,19 @@
+{
+  "project": "/workspaces/Orbital/orbital",
+  "existed": {
+    "src/RocketVisual.js": true,
+    "src/m1/AirMixingModel.js": false,
+    "src/m1/CFDAirField.js": false,
+    "src/m1/CesiumM1Exhaust.js": false,
+    "src/m1/CesiumM1Shaders.js": false,
+    "src/m1/MethaloxModel.js": false
+  },
+  "installedHashes": {
+    "src/RocketVisual.js": "f1733b86ddb1a70cb50c95e5edab910a4fc7cccc23c450c77f3a9cd5e1a31614",
+    "src/m1/AirMixingModel.js": "995e22c9f98f865d05c425d75ddaa28923b737958109cd78296a384ab68c0651",
+    "src/m1/CFDAirField.js": "f999153374949a4dde6a80f45d83040f536450a81c6d24d0e52a45a2cb609c2e",
+    "src/m1/CesiumM1Exhaust.js": "e4b25526b5d62e48933cbb819e82fdb8a00d381582ab422b3afb5d658dcd8909",
+    "src/m1/CesiumM1Shaders.js": "c55bf378eea63429b7598a592c7cd88f83dc3ac329963c71e21cb4be8fca52d7",
+    "src/m1/MethaloxModel.js": "693ea78afaeff19f9d75ee39b308afebbf6afe83b515a6949118954d176e1681"
+  }
+}

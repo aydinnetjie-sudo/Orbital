@@ -1,0 +1,8 @@
+{
+  "stage": "reference execution check",
+  "image": "opencfd/openfoam-default:2312",
+  "reference": "LadenburgJet60psi",
+  "initial_state": "restored supplied startup fields",
+  "rocket_plume_validated": false,
+  "vacuum_plume_validated": false
+}

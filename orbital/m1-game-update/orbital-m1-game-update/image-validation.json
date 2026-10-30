@@ -1,0 +1,20 @@
+{
+  "emission": {
+    "meanRGBDifference": 0.7282147058823529,
+    "pixelsAbove1": 8992
+  },
+  "air": {
+    "meanRGBDifference": 0.02888578431372549,
+    "pixelsAbove1": 2536
+  },
+  "foreground": {
+    "meanRGBDifference": 0.006340686274509804,
+    "pixelsAbove1": 645
+  },
+  "foregroundCentral60Pixels": {
+    "meanRGBDifference": 0.0,
+    "maxRGBDifference": 0.0,
+    "passed": true
+  },
+  "farPlane": 10000000000000
+}

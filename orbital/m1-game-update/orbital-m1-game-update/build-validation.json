@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "command": "VITE_CESIUM_ION_TOKEN=local-build-check npm run build",
+  "scope": "Full source production build using uploaded lockfile dependencies; placeholder token only keeps game code in the bundle, not a live service test",
+  "viteVersion": "8.1.5",
+  "noCredentialsAddedToSource": true,
+  "notes": ["Vite reports a large Cesium/game chunk; this is a warning, not a failed build", "Live ion terrain service access was not tested", "The credential-free WebGL fixture uses the actual updated RocketVisual and native Cesium renderer"]
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "command": "VITE_CESIUM_ION_TOKEN=local-build-check npm run build",
+  "scope": "Full game production build; placeholder keeps game source in bundle, not a live ion-service test",
+  "viteVersion": "8.1.5",
+  "notes": [
+    "Large Cesium/game bundle warning only",
+    "No credentials saved into source"
+  ]
+}

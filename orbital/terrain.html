@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Orbital — Real Terrain Flight</title>
+
+    <style>
+        html,
+        body,
+        #cesiumContainer {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        body {
+            background: #060b13;
+            font-family: system-ui, sans-serif;
+        }
+
+        #panel {
+            position: absolute;
+            z-index: 10;
+            top: 16px;
+            left: 16px;
+            max-width: 360px;
+            padding: 16px;
+
+            border: 1px solid #ffffff30;
+            border-radius: 12px;
+
+            background: #10212de8;
+            color: #edf5f7;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 15px;
+            letter-spacing: 0.1em;
+        }
+
+        p {
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        button,
+        a {
+            display: inline-block;
+            margin: 3px;
+            padding: 8px 12px;
+
+            border: 0;
+            border-radius: 6px;
+
+            background: #d6e9bd;
+            color: #17291d;
+
+            text-decoration: none;
+            cursor: pointer;
+            font: inherit;
+            font-size: 13px;
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: wait;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="cesiumContainer"></div>
+
+    <section id="panel">
+        <h1>ORBITAL · REAL TERRAIN FLIGHT</h1>
+
+        <p id="status">
+            Connecting to real terrain…
+        </p>
+
+        <p id="telemetry"></p>
+
+        <button id="launch" disabled>
+            Launch
+        </button>
+
+        <button id="cut" disabled>
+            Cut engine
+        </button>
+
+        <button id="reset" disabled>
+            Reset
+        </button>
+
+        <p>
+            Space: full thrust · X: cut engine<br>
+            Shift / Ctrl: throttle<br>
+            W/S and A/D: tilt · Q/E: roll<br>
+            L: hold upright · R: reset<br>
+            Drag: look around · Scroll: zoom<br>
+            V: cockpit
+        </p>
+
+        <a href="/">Previous flight prototype</a>
+    </section>
+
+    <script>
+        window.CESIUM_BASE_URL = "/cesium/";
+    </script>
+
+    <script
+        type="module"
+        src="/src/cesium-test.js"
+    ></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "radialCount": 512,
+  "diffusionCount": 129,
+  "maxRadius": 3.5,
+  "maxDiffusionRatio": 0.5,
+  "model": "Uniform disk convolved with a 2D Gaussian; conserved scalar flux, not interacting gas dynamics",
+  "layout": "RGBA float32 LE, radius along width, diffusion ratio along height"
+}

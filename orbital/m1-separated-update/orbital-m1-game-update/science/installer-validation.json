@@ -1,0 +1,10 @@
+{
+  "upgradePreflightNoMutation": true,
+  "upgradeInstalled": true,
+  "idempotent": true,
+  "protectsChangedSource": true,
+  "restoreProtectsLaterEdits": true,
+  "restorePreviousVersion": true,
+  "partialWriteRollback": true,
+  "passed": true
+}

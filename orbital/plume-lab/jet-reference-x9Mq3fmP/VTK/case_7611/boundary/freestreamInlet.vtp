@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<!-- patch='freestreamInlet' time='2e-05' index='7611' -->
+<VTKFile type='PolyData' version='0.1' byte_order='LittleEndian' header_type='UInt64'>
+  <PolyData>
+    <FieldData>
+      <DataArray type='Float32' Name='TimeValue' NumberOfTuples='1' format='ascii'>
+2e-05
+      </DataArray>
+    </FieldData>
+    <Piece NumberOfPoints='22' NumberOfPolys='10'>
+      <Points>
+        <DataArray type='Float32' Name='Points' NumberOfComponents='3' format='ascii'>
+0 0.005 -8.72666e-06 0 0.005 8.72666e-06 0 0.0055 9.59932e-06
+0 0.0055 -9.59932e-06 0 0.006 1.0472e-05 0 0.006 -1.0472e-05
+0 0.0065 1.13447e-05 0 0.0065 -1.13447e-05 0 0.007 1.22173e-05
+0 0.007 -1.22173e-05 0 0.0075 1.309e-05 0 0.0075 -1.309e-05
+0 0.008 1.39626e-05 0 0.008 -1.39626e-05 0 0.0085 1.48353e-05
+0 0.0085 -1.48353e-05 0 0.009 1.5708e-05 0 0.009 -1.5708e-05
+0 0.0095 1.65806e-05 0 0.0095 -1.65806e-05 0 0.01 1.74533e-05
+0 0.01 -1.74533e-05
+        </DataArray>
+      </Points>
+      <Polys>
+        <DataArray type='Int32' Name='connectivity' format='ascii'>
+0 1 2 3 3 2 4 5 5
+4 6 7 7 6 8 9 9 8
+10 11 11 10 12 13 13 12 14
+15 15 14 16 17 17 16 18 19
+19 18 20 21
+        </DataArray>
+        <DataArray type='Int32' Name='offsets' format='ascii'>
+4 8 12 16 20 24 28 32 36
+40
+        </DataArray>
+      </Polys>
+      <CellData>
+        <DataArray type='Float32' Name='T' format='ascii'>
+297 297 297 297 297 297 297 297 297
+297
+        </DataArray>
+        <DataArray type='Float32' Name='p' format='ascii'>
+76340.9 89400.9 98490.2 99004.5 99154.4 99378.7 100211 101290 101503
+101367
+        </DataArray>
+        <DataArray type='Float32' Name='rho' format='ascii'>
+0.895292 1.04845 1.15505 1.16108 1.16284 1.16547 1.17523 1.18788 1.19039
+1.18879
+        </DataArray>
+        <DataArray type='Float32' Name='U' NumberOfComponents='3' format='ascii'>
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+        </DataArray>
+      </CellData>
+      <PointData>
+        <DataArray type='Float32' Name='T' format='ascii'>
+297 297 297 297 297 297 297 297 297
+297 297 297 297 297 297 297 297 297
+297 297 297 297
+        </DataArray>
+        <DataArray type='Float32' Name='p' format='ascii'>
+76340.9 76340.9 82771.9 82771.9 93882.4 93882.4 98744 98744 99078.6
+99078.6 99265.3 99265.3 99790.5 99790.5 100745 100745 101396 101396
+101436 101436 101367 101367
+        </DataArray>
+        <DataArray type='Float32' Name='rho' format='ascii'>
+0.895292 0.895292 0.970712 0.970712 1.10101 1.10101 1.15803 1.15803 1.16195
+1.16195 1.16414 1.16414 1.1703 1.1703 1.18149 1.18149 1.18912 1.18912
+1.1896 1.1896 1.18879 1.18879
+        </DataArray>
+        <DataArray type='Float32' Name='U' NumberOfComponents='3' format='ascii'>
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+        </DataArray>
+      </PointData>
+    </Piece>
+  </PolyData>
+</VTKFile>

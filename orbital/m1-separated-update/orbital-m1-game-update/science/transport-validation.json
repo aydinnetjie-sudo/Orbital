@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "z": 0,
+      "relativeMassError": 1.4073046394891264e-08,
+      "centroid": "Each radially symmetric kernel remains centred on its source; no inward displacement term"
+    },
+    {
+      "z": 0.5,
+      "relativeMassError": 2.6130442254412856e-09,
+      "centroid": "Each radially symmetric kernel remains centred on its source; no inward displacement term"
+    },
+    {
+      "z": 1.5,
+      "relativeMassError": 2.6653199647341808e-09,
+      "centroid": "Each radially symmetric kernel remains centred on its source; no inward displacement term"
+    },
+    {
+      "z": 4,
+      "relativeMassError": 5.4603058741165e-09,
+      "centroid": "Each radially symmetric kernel remains centred on its source; no inward displacement term"
+    },
+    {
+      "z": 10,
+      "relativeMassError": 1.3403920195997898e-09,
+      "centroid": "Each radially symmetric kernel remains centred on its source; no inward displacement term"
+    }
+  ],
+  "scope": "Scalar flux invariants; not conservation/validation of superposed gas momentum or pressure"
+}

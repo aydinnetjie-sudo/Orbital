@@ -1,0 +1,108 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+FoamFile
+{
+    version         2;
+    format          ascii;
+    class           dictionary;
+    object          controlDict;
+}
+
+application     rhoCentralFoam;
+
+startFrom       latestTime;
+
+startTime       0;
+
+stopAt          endTime;
+
+endTime         0.04;
+
+deltaT          1e-09;
+
+adjustTimeStep  yes;
+
+maxCo           0.2;
+
+maxDeltaT       1e-05;
+
+writeControl    adjustableRunTime;
+
+writeInterval   0.005;
+
+purgeWrite      0;
+
+writeFormat     ascii;
+
+writePrecision  12;
+
+writeCompression off;
+
+timeFormat      general;
+
+timePrecision   10;
+
+runTimeModifiable true;
+
+functions
+{
+    mass_inlet
+    {
+        type            surfaceFieldValue;
+        libs            ( "libfieldFunctionObjects.so" );
+        regionType      patch;
+        name            inlet;
+        operation       sum;
+        fields          ( phi );
+        writeFields     false;
+        log             false;
+        writeControl    timeStep;
+        writeInterval   200;
+    }
+    mass_outlet
+    {
+        type            surfaceFieldValue;
+        libs            ( "libfieldFunctionObjects.so" );
+        regionType      patch;
+        name            outlet;
+        operation       sum;
+        fields          ( phi );
+        writeFields     false;
+        log             false;
+        writeControl    timeStep;
+        writeInterval   200;
+    }
+    mass_farfield
+    {
+        type            surfaceFieldValue;
+        libs            ( "libfieldFunctionObjects.so" );
+        regionType      patch;
+        name            farfield;
+        operation       sum;
+        fields          ( phi );
+        writeFields     false;
+        log             false;
+        writeControl    timeStep;
+        writeInterval   200;
+    }
+    domainMass
+    {
+        type            volFieldValue;
+        libs            ( "libfieldFunctionObjects.so" );
+        operation       volIntegrate;
+        fields          ( rho );
+        writeFields     false;
+        log             false;
+        writeControl    timeStep;
+        writeInterval   200;
+    }
+}
+
+
+// ************************************************************************* //

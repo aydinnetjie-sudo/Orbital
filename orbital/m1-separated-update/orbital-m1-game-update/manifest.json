@@ -1,0 +1,28 @@
+{
+  "schema": 2,
+  "supportedInputs": [
+    {
+      "src/RocketVisual.js": "0e9d5b15e4eb6e0816f194d904b7f79fe24a24cacfa90ac5c7e0cbe547caf4ee",
+      "src/RocketDesign.js": "f7f7d325109303da8bd580599c2e335c9bb4a2f9ea196f3da4421cd91e608efd"
+    },
+    {
+      "src/RocketVisual.js": "f1733b86ddb1a70cb50c95e5edab910a4fc7cccc23c450c77f3a9cd5e1a31614",
+      "src/m1/AirMixingModel.js": "995e22c9f98f865d05c425d75ddaa28923b737958109cd78296a384ab68c0651",
+      "src/m1/CFDAirField.js": "f999153374949a4dde6a80f45d83040f536450a81c6d24d0e52a45a2cb609c2e",
+      "src/m1/CesiumM1Exhaust.js": "e4b25526b5d62e48933cbb819e82fdb8a00d381582ab422b3afb5d658dcd8909",
+      "src/m1/CesiumM1Shaders.js": "c55bf378eea63429b7598a592c7cd88f83dc3ac329963c71e21cb4be8fca52d7",
+      "src/m1/MethaloxModel.js": "693ea78afaeff19f9d75ee39b308afebbf6afe83b515a6949118954d176e1681",
+      "src/RocketDesign.js": "f7f7d325109303da8bd580599c2e335c9bb4a2f9ea196f3da4421cd91e608efd"
+    }
+  ],
+  "payload": {
+    "src/RocketVisual.js": "f1733b86ddb1a70cb50c95e5edab910a4fc7cccc23c450c77f3a9cd5e1a31614",
+    "src/m1/AirMixingModel.js": "995e22c9f98f865d05c425d75ddaa28923b737958109cd78296a384ab68c0651",
+    "src/m1/CFDAirField.js": "f999153374949a4dde6a80f45d83040f536450a81c6d24d0e52a45a2cb609c2e",
+    "src/m1/CesiumM1Exhaust.js": "1a3617b5b54f2623dd0f1d4c3ea64c6b7176f4f8bf040baef563042fbeb20162",
+    "src/m1/CesiumM1Shaders.js": "e2ed5413a071685be22cce1aa7c77fee6c6d4b88047e843470d998fbbaddb9a5",
+    "src/m1/ClusterTransportModel.js": "24aa9abffd1a8c99a0d57f832850f23cbf9e323cfa97ffbb1d6dd13d9966155d",
+    "src/m1/JetTransportKernel.js": "9c588775dcae5c1a4d7f82b2912b169c0f336be45979d3428932b6f5e6c22676",
+    "src/m1/MethaloxModel.js": "693ea78afaeff19f9d75ee39b308afebbf6afe83b515a6949118954d176e1681"
+  }
+}

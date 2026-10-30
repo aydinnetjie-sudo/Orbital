@@ -1,0 +1,20 @@
+{
+  "name": "orbital",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.1.1",
+    "vite-plugin-static-copy": "^4.1.1"
+  },
+  "dependencies": {
+    "cesium": "^1.146.0",
+    "simplex-noise": "^4.0.3",
+    "three": "^0.185.1"
+  }
+}
